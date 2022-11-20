@@ -6,6 +6,9 @@
 
 body {
     color: var(--primary-text-color);
+    font-family: 'Raleway', sans-serif;
+     font-family: 'Roboto', sans-serif;
+    background: #FFFFFF;
 }
 
 ul {
@@ -14,85 +17,74 @@ ul {
 /* header */ 
 /* Logo */
 .logo {
-font-style: normal;
-    font-weight: 800;
+font-family: 'Raleway';
+    font-weight: 700;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 1.3;
     color: #4D5AE5;
+    text-decoration: none;
 }
 
 .studio {
-    font-style: normal;
-        font-weight: 800;
+        font-weight: 700;
         font-size: 18px;
-        line-height: 24px;
+        line-height: 1.3;
         color: var(--title-text-color);
 }
 /* nav */
 .site-nav .link {
-    font-style: normal;
         font-weight: 600;
         font-size: 16px;
-        line-height: 24px;
+        line-height:1.3;
         letter-spacing: 0.02em;
         color: var(--title-text-color);
+        text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--accent-color);
 }
 
-.auth-nav-mail {
-    font-style: normal;
+.auth-nav-mail,
+ .auth-nav-tel
+ {
         font-weight: 400;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 1.3;
         letter-spacing: 0.02em;
         color: var(--primary-text-color);
+        text-decoration: none;
 }
-.auth-nav-tel {
-    font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
-        letter-spacing: 0.02em;
-        color: var(--primary-text-color);
-}
-
       /* hero */
 
   .hero-title {
-    font-style: normal;
         font-weight: 600;
         font-size: 56px;
-        line-height: 60px;
+        line-height: 1.07;
         text-align: center;
         letter-spacing: 0.02em;
        
   }
 
   .section-title-list {
-    font-style: normal;
         font-weight: 600;
         font-size: 20px;
-        line-height: 24px;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         color: var(--title-text-color);
   }
   .section-title-lead {
-    font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 1.3;
         letter-spacing: 0.02em;
         color: #434455;
   }
 
   .sections-title {
-    font-style: normal;
         font-weight: 600;
         font-size: 36px;
-        line-height: 40px;
+        line-height: 1.1;
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
@@ -101,32 +93,29 @@ font-style: normal;
   /* team */
 
   .sections-name {
-    font-style: normal;
         font-weight: 600;
         font-size: 20px;
-        line-height: 24px;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         color: var(--title-text-color);
   }
   .sections-profession {
-    font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 1.3;
         letter-spacing: 0.02em;
         color: var(--primary-text-color);
   }
 
   /* bottom */
 button {
-    font-style: normal;
+    font-family: inherit;
         font-weight: 600;
         font-size: 16px;
-        line-height: 19px;
-        display: flex;
-        align-items: center;
+        line-height: 1.18;
         letter-spacing: 0.04em;
         }
+
         button:hover {
         background: #4D5AE5;
         }
@@ -134,5 +123,17 @@ button {
  /* Стилі для Portfolio */
 
 
+ .projects .title {
+font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+ }
 
+.projects .lead {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
 
