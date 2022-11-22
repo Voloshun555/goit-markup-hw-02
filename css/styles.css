@@ -4,9 +4,8 @@
   --accent-color: #4d5ae5;
 }
 
-body 
-{
-font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
   color: var(--primary-text-color);
   background-color: #ffffff;
 }
@@ -82,6 +81,10 @@ ul {
   color: #ffffff;
 }
 .hero-button {
+  padding: 16px 32px;
+  gap: 10px;
+  border: 1px solid transparent;
+  border-radius: 4px;
   width: 170px;
   height: 51px;
   background: #4d5ae5;
@@ -193,10 +196,10 @@ ul {
 }
 
 /* bottom */
-button {
- border-radius: 6px;
- padding: 8px 16px;
-border: 1px solid transparent;
+.styles-botton {
+  border-radius: 4px;
+  padding: 8px 16px;
+  border: 1px solid #e7e9fc;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -210,8 +213,8 @@ border: 1px solid transparent;
   color: #4d5ae5;
   cursor: pointer;
 }
-button:hover,
-button:focus {
+.styles-botton:hover,
+.styles-botton:focus {
   background-color: #4d5ae5;
   color: #ffffff;
 }
