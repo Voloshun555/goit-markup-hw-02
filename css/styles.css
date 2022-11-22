@@ -194,6 +194,9 @@ ul {
 
 /* bottom */
 button {
+ border-radius: 6px;
+ padding: 8px 16px;
+border: 1px solid transparent;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
