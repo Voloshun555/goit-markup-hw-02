@@ -5,10 +5,12 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+font-family: 'Roboto Slab', serif;
   color: var(--primary-text-color);
   background-color: #ffffff;
+  font-family: roboto, sans-serif;
 }
+font-family
 
 ul {
   list-style: none;
@@ -32,7 +34,7 @@ ul {
   color: var(--title-text-color);
 }
 /* nav */
-.site-nav .link {
+.nav-link {
   font-weight: 600;
   font-size: 16px;
   line-height: 1.3;
@@ -40,16 +42,16 @@ ul {
   color: var(--title-text-color);
   text-decoration: none;
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: #434455;
 }
-.site-nav .link:active {
+.nav-link:active {
   color: #4d5ae5;
 }
 
-.auth-nav-mail,
-.auth-nav-tel {
+.nav-mail,
+.nav-tel {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -58,12 +60,12 @@ ul {
   text-decoration: none;
 }
 
-.auth-nav-mail:hover,
-.auth-nav-tel:hover {
+.nav-mail:hover,
+.nav-tel:hover {
   color: var(--accent-color);
 }
-.auth-nav-mail:focus,
-.auth-nav-tel:focus {
+.nav-mail:focus,
+.nav-tel:focus {
   color: var(--accent-color);
 }
 
@@ -85,9 +87,8 @@ ul {
   gap: 10px;
   border: 1px solid transparent;
   border-radius: 4px;
-  width: 170px;
-  height: 51px;
-  background: #4d5ae5;
+  font-family: inherit;
+  background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
@@ -96,7 +97,7 @@ ul {
 
 .hero-button:hover,
 .hero-button:focus {
-  background: #4d5ae5;
+  background: var(--accent-color);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 4px;
@@ -137,11 +138,10 @@ ul {
   color: var(--title-text-color);
 }
 .section-title-lead {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.3;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--primary-text-color);
 }
 
 /* team */
@@ -160,7 +160,6 @@ ul {
   color: var(--title-text-color);
 }
 .sections-profession {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.3;
   letter-spacing: 0.02em;
@@ -174,39 +173,20 @@ ul {
 }
 
 .projects .lead {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
-.footer {
-  background-color: #2e2f42;
-}
-.footer .studio {
-  color: #f4f4fd;
-}
-
-.footer .lead {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #e7e9fc;
-}
-
 /* bottom */
 .styles-botton {
   border-radius: 4px;
   padding: 8px 16px;
   border: 1px solid #e7e9fc;
   font-style: normal;
+  font-family: inherit;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.04em;
   padding: 8px 16px;
   background-color: #f4f4fd;
@@ -215,7 +195,7 @@ ul {
 }
 .styles-botton:hover,
 .styles-botton:focus {
-  background-color: #4d5ae5;
+  background-color: var(--accent-color);
   color: #ffffff;
 }
 
@@ -227,8 +207,21 @@ ul {
   color: var(--title-text-color);
 }
 
+.footer {
+  background-color: #2e2f42;
+}
+.footer .studio {
+  color: #f4f4fd;
+}
+
+.footer .lead {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+}
+
 .lead {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
